@@ -9,13 +9,6 @@ import SearchIcon from './search.svg'
 
 const API_URL = 'http://www.omdbapi.com?apikey=15e6c24';
 
-const movie1 = {
-    "Title": "Superman II",
-    "Year": "1980",
-    "imdbID": "tt0081573",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BODk2NjgzNTEtYzZhZC00ZTBkLTllMGQtMmMxMzU1NDRkM2RlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg"
-}
 
 const App = () => {
     const [movies, setMovies] = useState([]);
